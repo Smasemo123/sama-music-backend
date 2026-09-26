@@ -1,5 +1,3 @@
 fastapi[standard]
-uvicorn
 python-multipart
 demucs
-fastapi[standard]
