@@ -1,3 +1,4 @@
+```toml
 [project]
 name = "sama-music-backend"
 version = "1.0.0"
@@ -9,6 +10,7 @@ dependencies = [
     "uvicorn",
     "python-multipart",
     "demucs",
+    "numpy",
 ]
 
 [tool.fastapi]
@@ -20,3 +22,5 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 py-modules = ["main"]
+```
+
